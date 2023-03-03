@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_Issue13665.MainPage">
+
+    <Grid RowDefinitions="100,*">
+        <Editor Grid.Row="0" IsReadOnly="True"
+                Text="Apple&#xa;Orange&#xa;Lime&#xa;Lemon&#xa;Cherry&#xa;Raisin" />
+    </Grid>
+    
+</ContentPage>
